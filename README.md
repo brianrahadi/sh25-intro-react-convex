@@ -5,6 +5,7 @@ React + Vite + Convex project setup.
 ## Setup
 
 1. `npm create vite@latest`
+Choose react and typescript+ SWC
 
 
 ## Convex Integration
