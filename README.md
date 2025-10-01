@@ -1,19 +1,24 @@
 # sh25-intro-react-convex
 
-1. npm create vite@latest
+React + Vite + Convex project setup.
+
+## Setup
+
+1. `npm create vite@latest`
 
 
-Installing Convex
-https://docs.convex.dev/quickstart/react
-https://docs.convex.dev/functions/mutation-functions
+## Convex Integration
 
-1. Ensure terminal in current root of folder 
-   1. cd sh25-intro-react-convex
-2. npm install convex
-3. npx convex dev
-4. add guestbookData.jsonl
-5. npx convex import --table guestbook guestbookData.jsonl
-6. add convex/schema.ts
-7. add convex/tasks.ts
-8. Connect backend in src/main.tsx
-9. Display data in src/components/GuestbookSection.tsx
+1. `npm install convex`
+2. `npx convex dev`
+3. Add `guestbookData.jsonl`
+4. `npx convex import --table guestbook guestbookData.jsonl`
+5. Add `convex/schema.ts`
+6. Add `convex/tasks.ts`
+7. Connect backend in `src/main.tsx`
+8. Display data in `src/components/GuestbookSection.tsx`
+
+## Resources
+
+- [Convex Quickstart](https://docs.convex.dev/quickstart/react)
+- [Mutation Functions](https://docs.convex.dev/functions/mutation-functions)
